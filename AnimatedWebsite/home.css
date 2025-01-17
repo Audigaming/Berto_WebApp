@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: "Matter Light";
+    src: url("https://db.onlinewebfonts.com/t/7a863e52027a15967aacbcbc759a133c.eot");
+    src: url("https://db.onlinewebfonts.com/t/7a863e52027a15967aacbcbc759a133c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7a863e52027a15967aacbcbc759a133c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7a863e52027a15967aacbcbc759a133c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7a863e52027a15967aacbcbc759a133c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7a863e52027a15967aacbcbc759a133c.svg#Matter Light")format("svg");
+}
+.cb-tophead-titleDesign {
+    font-size: 9.32rem;
+    line-height: 90%;
+    letter-spacing: -.03em;
+    font-family: Matter, sans-serif;
+}
+    .cb-tophead-title {
+        font-size: 12.32rem;
+        line-height: 90%;
+        letter-spacing: -.04em;
+        font-family: Matter, sans-serif;
+    }
+    .-lg.cb-tophead-container{
+        padding: 0 10.625vw;
+    }
+    em{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 100;
+    font-stretch: 146%;
+    font-variation-settings: "GRAD" -20, "slnt" -10, "YTLC" 553, "opsz" 93;
+    letter-spacing: -.04em;
+    }
+   
+  
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.cursor-dot {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    pointer-events: none; /* Ensures the dot doesn't interfere with other elements */
+    transform: translate(-50%, -50%); /* Centers the dot on the cursor */
+    transition: transform 0.1s ease;
+}
+#playIcon {
+    position: absolute;
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10000;
+}
+
